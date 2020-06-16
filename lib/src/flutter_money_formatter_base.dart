@@ -60,7 +60,7 @@ class FlutterMoneyFormatter {
   }
 
   /// Amount number that will be formatted.
-  double amount;
+  dynamic amount;
 
   /// The formatter settings
   MoneyFormatterSettings settings;
