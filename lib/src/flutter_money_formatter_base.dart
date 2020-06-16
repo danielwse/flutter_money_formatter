@@ -130,7 +130,7 @@ class FlutterMoneyFormatter {
 
   /// Copies current instance and change some values to the new instance.
   FlutterMoneyFormatter copyWith(
-      {double amount,
+      {dynamic amount,
       String symbol,
       String thousandSeparator,
       String decimalSeparator,
