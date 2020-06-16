@@ -197,7 +197,7 @@ print(fmf.comparator.isGreaterThan(comparerValue)); // true
 ```dart
 FlutterMoneyFormatter fastCalc({
     @required FastCalcType type, 
-    @required double amount
+    @required dynamic amount
 })
 ```
 

@@ -44,7 +44,7 @@ import 'package:flutter/foundation.dart';
 class MoneyFormatterCompare {
   MoneyFormatterCompare({@required this.amount});
 
-  final double amount;
+  final dynamic amount;
 
   /// Check current instance amount is lower than [amount] or not
   bool isLowerThan(double amount) => this.amount < amount;

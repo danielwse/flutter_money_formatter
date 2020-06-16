@@ -95,7 +95,7 @@ class FlutterMoneyFormatter {
 
   /// returns FlutterMoneyFormatter after calculating amount.
   FlutterMoneyFormatter fastCalc(
-      {@required FastCalcType type, @required double amount}) {
+      {@required FastCalcType type, @required dynamic amount}) {
     switch (type) {
       case FastCalcType.addition:
         this.amount += amount;
